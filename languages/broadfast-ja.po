@@ -1,0 +1,2131 @@
+# Translation of Plugins - Arigato Autoresponder and Newsletter - Development (trunk) in Japanese
+# This file is distributed under the same license as the Plugins - Arigato Autoresponder and Newsletter - Development (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Arigato Autoresponder and Newsletter - "
+"Development (trunk)\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2023-11-13 07:24+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.4.1\n"
+
+#: views/webhooks.html.php:36
+msgid "Are you sure you want to delete the hook?"
+msgstr "本当にフックを削除しますか？"
+
+#: views/webhooks.html.php:23
+msgid "Unsubscribe"
+msgstr "登録解除"
+
+#: views/webhooks.html.php:23
+msgid "Subscribe"
+msgstr "登録"
+
+#: views/webhooks.html.php:15 views/webhooks.html.php:25
+msgid "View/Edit"
+msgstr "表示/編集"
+
+#: views/webhooks.html.php:14
+msgid "Notifies hook URL"
+msgstr "フックURLを通知"
+
+#: views/webhooks.html.php:8
+msgid "Set up a new webhook"
+msgstr "新しいウェブフックを設定する"
+
+#: views/webhooks.html.php:6
+msgid ""
+"Learn more about using webhooks in Arigato and Arigato PRO <a href=\"%s\" "
+"target=\"_blank\">here</a>."
+msgstr ""
+"ArigatoとArigato PROでのウェブフックの使用については、<a href=\"%s\" "
+"target=\"_blank\">こちら</a>をご覧ください。"
+
+#: views/webhooks.html.php:4
+msgid ""
+"Here you can define webhooks which to be notified when an user subscribes to "
+"or unsubscribes from a mailing list. Webhooks are most often used with "
+"Zapier but can also be useful for integrations to other apps. Learn more "
+"about Zapier webhooks <a href=\"%1$s\" target=\"_blank\">here</a>."
+msgstr ""
+"ここでは、ユーザーがメーリングリストに登録または登録解除する際に通知を受ける"
+"ためのウェブフックを定義できます。ウェブフックは主にZapierと共に使用されます"
+"が、他のアプリへの統合にも役立ちます。Zapierのウェブフックについて詳しくは<a "
+"href=\"%1$s\" target=\"_blank\">こちら</a>をご覧ください。"
+
+#: views/webhooks.html.php:2
+msgid "Manage Webhooks"
+msgstr "ウェブフックの管理"
+
+#: views/webhook.html.php:77
+msgid "Provide a valid Webhook URL"
+msgstr "有効なWebhook URLを指定する"
+
+#: views/webhook.html.php:59
+msgid "Response from the hook"
+msgstr "フックの反応"
+
+#: views/webhook.html.php:57
+msgid "Data sent"
+msgstr "送信データ"
+
+#: views/webhook.html.php:48
+msgid "Test Webhook"
+msgstr "ウェブフックのテスト"
+
+#: views/webhook.html.php:47
+msgid "Save Webhook"
+msgstr "ウェブフックの保存"
+
+#: views/webhook.html.php:41
+msgid "Predefined variable 3"
+msgstr "定義済み変数 3"
+
+#: views/webhook.html.php:40
+msgid "Custom parameter 3"
+msgstr "カスタムパラメータ3"
+
+#: views/webhook.html.php:37
+msgid "Predefined variable 2"
+msgstr "定義済み変数 2"
+
+#: views/webhook.html.php:36
+msgid "Custom parameter 2"
+msgstr "カスタムパラメータ2"
+
+#: views/webhook.html.php:33
+msgid "Predefined variable 1"
+msgstr "定義済み変数 1"
+
+#: views/webhook.html.php:32
+msgid "Custom parameter 1"
+msgstr "カスタムパラメータ 1"
+
+#: views/webhook.html.php:28
+msgid "Email address"
+msgstr "メールアドレス"
+
+#: views/webhook.html.php:27 views/webhook.html.php:30
+msgid "Dynamic / provided by user"
+msgstr "ダイナミック／ユーザー提供"
+
+#: views/webhook.html.php:25
+msgid "Subscriber  Name"
+msgstr "契約者名"
+
+#: views/webhook.html.php:22
+msgid "Variable value"
+msgstr "変数値"
+
+#: views/webhook.html.php:22
+msgid "Variable name"
+msgstr "変数名"
+
+#: views/webhook.html.php:22
+msgid "Field / Data"
+msgstr "フィールド / データ"
+
+#: views/webhook.html.php:18
+msgid ""
+"You can include several custom attributes with a predefined value in the "
+"request. You can use them for an API key, authorization keys, and so on."
+msgstr ""
+"あらかじめ定義された値を持ついくつかのカスタム属性をリクエストに含めることが"
+"できます。APIキーや認証キーなどに使用できます。"
+
+#: views/webhook.html.php:16
+msgid ""
+"The following data can be passed as a JSON array from Arigato to the webhook "
+"if they are available. You can set your names for each variable. If a "
+"variable has no name, it will not be included in the JSON array."
+msgstr ""
+"以下のデータがあれば、ArigatoからWebhookにJSON配列として渡すことができます。"
+"各変数に名前を設定することができます。変数に名前がない場合、JSON配列には含ま"
+"れません。"
+
+#: views/webhook.html.php:14
+msgid "Webhook URL:"
+msgstr "ウェブフックのURL："
+
+#: views/webhook.html.php:12
+msgid "To/from your mailing list"
+msgstr "メーリングリストへ／メーリングリストから"
+
+#: views/webhook.html.php:11
+msgid "Unsubscribes"
+msgstr "配信停止数"
+
+#: views/webhook.html.php:10
+msgid "Subscribes"
+msgstr "購読者数"
+
+#: views/webhook.html.php:9
+msgid "When someone:"
+msgstr "誰かが："
+
+#: views/webhook.html.php:4
+msgid "Back to webhooks"
+msgstr "ウェブフックに戻る"
+
+#: views/webhook.html.php:2
+msgid "Add/Edit a Webhook"
+msgstr "Webhookの追加/編集"
+
+#: views/view-archived-newsletter.html.php:5
+msgid "Date: %s"
+msgstr "日付: %s"
+
+#: views/view-archived-newsletter.html.php:3
+msgid "Back to the newsletter archive"
+msgstr "ニュースレター・アーカイブに戻る"
+
+#: views/unsubscribe.html.php:6
+msgid "Unsubscribe me"
+msgstr "登録解除"
+
+#: views/unsubscribe.html.php:2
+msgid "Please confirm that you wish to unsubscribe"
+msgstr "配信停止を希望することを確認してください"
+
+#: views/signup-form.html.php:31
+msgid "Please answer the validation question"
+msgstr "有効化に関する質問にお答えください"
+
+#: views/signup-form.html.php:24
+msgid "Please fill in valid email address"
+msgstr "有効なメールアドレスを入力してください"
+
+#: views/signup-form.html.php:16
+msgid "Please fill in your name"
+msgstr "お名前をご記入ください"
+
+#: views/signup-form.html.php:8
+msgid "Register"
+msgstr "登録"
+
+#: views/sidebar.html.php:54
+msgid "support forum at Wordpress."
+msgstr "ワードプレスのサポートフォーラムをご覧ください。"
+
+#: views/sidebar.html.php:54
+msgid "Please ask your question in the"
+msgstr "ご質問は"
+
+#: views/sidebar.html.php:52
+msgid "Need Support?"
+msgstr "サポートが必要ですか？"
+
+#: views/sidebar.html.php:47
+msgid "to empower your site with extra benefits"
+msgstr "あなたのサイトにさらなるメリットを"
+
+#: views/sidebar.html.php:47
+msgid "Go PRO"
+msgstr "PRO版へ"
+
+#: views/sidebar.html.php:46
+msgid "on social networks."
+msgstr "ソーシャルネットワーク上で"
+
+#: views/sidebar.html.php:46
+msgid "our home page"
+msgstr "ホームページ"
+
+#: views/sidebar.html.php:46
+msgid "Let others know about it by blogging or posting"
+msgstr "ブログや投稿で他の人に知らせる"
+
+#: views/sidebar.html.php:45
+msgid "Rate it 5 starts at Wordpress.org"
+msgstr "Wordpress.orgで評価星５つ"
+
+#: views/sidebar.html.php:42
+msgid "If you like this plugin you can do some of the following:"
+msgstr "このプラグインが気に入ったら、次のようなことができます："
+
+#: views/sidebar.html.php:40
+msgid "Help To Spread The Word!"
+msgstr "この言葉を広めるために力を貸してください！"
+
+#: views/sidebar.html.php:36
+msgid ""
+"Upgrading to PRO comes with 60 days money-back guarantee, one year free "
+"upgrades and one year free support."
+msgstr ""
+"PROにアップグレードすると、60日間の返金保証、1年間の無料アップグレード、1年間"
+"の無料サポートが付きます。"
+
+#: views/sidebar.html.php:34
+msgid "online demo."
+msgstr "オンラインデモ"
+
+#: views/sidebar.html.php:34
+msgid "or check the"
+msgstr "または"
+
+#: views/sidebar.html.php:34
+msgid "take the tour"
+msgstr "ツアーに参加する"
+
+#: views/sidebar.html.php:34
+msgid "Just go ahead and"
+msgstr "どうぞ"
+
+#: views/sidebar.html.php:31
+msgid "And a lot more - just come to see!"
+msgstr "そのほかにもいろいろある！"
+
+#: views/sidebar.html.php:30
+msgid "with a designated email account"
+msgstr "指定のEメールアカウント"
+
+#: views/sidebar.html.php:30
+msgid "Bounce tracking"
+msgstr "バウンス・トラッキング"
+
+#: views/sidebar.html.php:29
+msgid "can be inserted in the subscribe forms"
+msgstr "購読フォームに挿入できる"
+
+#: views/sidebar.html.php:29
+msgid "Custom fields"
+msgstr "カスタムフィールド"
+
+#: views/sidebar.html.php:28
+msgid "with dynamic tags (variables)"
+msgstr "動的タグ（変数）を持つ"
+
+#: views/sidebar.html.php:28
+msgid "Customize the messages"
+msgstr "メッセージのカスタマイズ"
+
+#: views/sidebar.html.php:27
+msgid "for domains you own"
+msgstr "所有するドメインの場合"
+
+#: views/sidebar.html.php:27
+msgid "Unlimited domains license"
+msgstr "無制限ドメインライセンス"
+
+#: views/sidebar.html.php:26
+msgid "with translation .po files"
+msgstr "翻訳.poファイル付き"
+
+#: views/sidebar.html.php:26
+msgid "Localization-ready"
+msgstr "ローカライズ対応"
+
+#: views/sidebar.html.php:25
+msgid "that will be sent at once, and per day."
+msgstr "一度に、そして一日ごとに送信される。"
+
+#: views/sidebar.html.php:25
+msgid "Fine-tune the number of emails"
+msgstr "メール数の微調整"
+
+#: views/sidebar.html.php:24
+msgid "to prevent spam submissions"
+msgstr "スパム投稿を防ぐ"
+
+#: views/sidebar.html.php:24
+msgid "Optional reCaptcha or question based captcha"
+msgstr "オプションのreCaptchaまたは質問ベースのcaptcha"
+
+#: views/sidebar.html.php:23
+msgid "to embed your signup form easily"
+msgstr "登録フォームを簡単に埋め込む"
+
+#: views/sidebar.html.php:23
+msgid "Widgets, shortcodes and template tags"
+msgstr "ウィジェット、ショートコード、テンプレートタグ"
+
+#: views/sidebar.html.php:22
+msgid "to selected mailing list(s)"
+msgstr "選択したメーリングリストへ"
+
+#: views/sidebar.html.php:22
+msgid "Send newsletters"
+msgstr "ニュースレターの送付"
+
+#: views/sidebar.html.php:21
+msgid "can be inserted in your messages"
+msgstr "メッセージに挿入できる"
+
+#: views/sidebar.html.php:21
+msgid "Attachment"
+msgstr "添付ファイル"
+
+#: views/sidebar.html.php:20
+msgid ""
+"sequential emails, fixed date emails, weekday messages, repeatable mails"
+msgstr "連続メール、日付固定メール、平日メッセージ、繰り返しメール"
+
+#: views/sidebar.html.php:20
+msgid "Differen email types:"
+msgstr "メールの種類を分ける："
+
+#: views/sidebar.html.php:19
+msgid "Multiple auto-responder marketing campaigns"
+msgstr "複数の自動応答マーケティング・キャンペーン"
+
+#: views/sidebar.html.php:18
+msgid "Each one can be assigned to multiple auto responder campaigns."
+msgstr "それぞれが複数の自動応答キャンペーンに割り当てることができます。"
+
+#: views/sidebar.html.php:18
+msgid "Multiple mailing lists"
+msgstr "複数のメーリングリスト"
+
+#: views/sidebar.html.php:17
+msgid "Premium support"
+msgstr "プレミアム・サポート"
+
+#: views/sidebar.html.php:16 views/sidebar.html.php:17
+msgid "Free email support for 1 year after purchase"
+msgstr "購入後1年間の無料メールサポート"
+
+#: views/sidebar.html.php:15
+msgid "One click transfer of your existing settings and mailing list"
+msgstr "既存の設定とメーリングリストをワンクリックで転送"
+
+#: views/sidebar.html.php:12
+msgid "upgrading to the PRO version:"
+msgstr "PROバージョンへのアップグレード："
+
+#: views/sidebar.html.php:12
+msgid "Get more powerful features by"
+msgstr "よりパワフルな機能を手に入れるには"
+
+#: views/sidebar.html.php:10
+msgid "Go PRO!"
+msgstr "PRO版へ！"
+
+#: views/raw-email-log.html.php:40
+msgid "Receiver"
+msgstr "受信者"
+
+#: views/raw-email-log.html.php:39
+msgid "Sender"
+msgstr "差出人"
+
+#: views/raw-email-log.html.php:38
+msgid "Time"
+msgstr "時間"
+
+#: views/raw-email-log.html.php:33
+msgid "No emails have been sent on the selected date."
+msgstr "選択した日付にメールが送信されていません。"
+
+#: views/raw-email-log.html.php:25
+msgid "Set Cleanup"
+msgstr "クリーンアップ"
+
+#: views/raw-email-log.html.php:24
+msgid "days"
+msgstr "日間"
+
+#: views/raw-email-log.html.php:21
+msgid "Automatically cleanup old logs after"
+msgstr "古いログを自動的にクリーンアップする"
+
+#: views/raw-email-log.html.php:17
+msgid "Show log"
+msgstr "ログを表示する"
+
+#: views/raw-email-log.html.php:14
+msgid "Log date (start - end):"
+msgstr "ログの日付（開始 - 終了）："
+
+#: views/raw-email-log.html.php:10
+msgid ""
+"This is a raw email log showing you all emails sent from the autoresponder. "
+"It incldues activation, double opt-in emails, drip marketing emails, "
+"newsletters, etc. A lot more specific logs are available in the PRO version."
+msgstr ""
+"オートレスポンダーから送信されたすべてのメールを表示する生のメールログです。"
+"アクティベーション、ダブルオプトインメール、ドリップマーケティングメール、"
+"ニュースレターなどが含まれます。PROバージョンではより詳細なログをご覧いただけ"
+"ます。"
+
+#: views/raw-email-log.html.php:7
+msgid "Email Log"
+msgstr "メールログ"
+
+#: views/newsletter.html.php:66
+msgid "Edit"
+msgstr "編集"
+
+#: views/newsletter.html.php:64
+msgid "%d sent, %d failed"
+msgstr "%d送信、%d失敗"
+
+#: views/newsletter.html.php:63
+msgid "In progress. Sent %d of %d"
+msgstr "進行中です。%d の %d を送信しました"
+
+#: views/newsletter.html.php:56
+msgid "Edit/Delete"
+msgstr "編集/削除"
+
+#: views/newsletter.html.php:56
+msgid "Receivers"
+msgstr "受信者数"
+
+#: views/newsletter.html.php:55
+msgid "Sent on"
+msgstr "送付日"
+
+#: views/newsletter.html.php:55 views/raw-email-log.html.php:41
+msgid "Subject"
+msgstr "件名"
+
+#: views/newsletter.html.php:51
+msgid "Create a new newsletter"
+msgstr "新しいニュースレターを作成する"
+
+#: views/newsletter.html.php:48
+msgid ""
+"You can publish the newsletters archive on the front-end using this "
+"shortcode: %s"
+msgstr ""
+"このショートコードを使って、フロントエンドでニュースレターアーカイブを公開す"
+"ることができます： %s"
+
+#: views/newsletter.html.php:46
+msgid "Previous newsletters"
+msgstr "以前のニュースレター"
+
+#: views/newsletter.html.php:36
+msgid ""
+"Our <a href=\"http://calendarscripts.info/bft-pro/\" target=\"_blank\">PRO "
+"Version</a> offers much better flexibility over the number of emails you "
+"send at once and per day, detailed reports, multiple mailing lists. You can "
+"also see and reuse old newsletters, customize them with dynamic tags, see "
+"reports and a lot more"
+msgstr ""
+"<a href=\"http://calendarscripts.info/bft-pro/\" target=\"_blank\">PRO バー"
+"ジョン</a>では、一度に送信するメールの数や一日に送信するメールの数、詳細なレ"
+"ポート、複数のメーリングリストなど、より柔軟な設定が可能です。また、古いメー"
+"ルマガジンの閲覧や再利用、ダイナミックタグによるカスタマイズ、レポートの閲覧"
+"など、様々なことが可能です"
+
+#: views/newsletter.html.php:34
+msgid ""
+"This newsletter will be sent scheduled for sending to all your confirmed "
+"subscribers by the cron job which sends also the auto responder emails. "
+"Newsletters have lower priority than autoresponder emails so they will be "
+"sent after all autoresponder emails for the day are sent."
+msgstr ""
+"このニュースレターは、自動応答メールも送信するcronジョブによって、確認された"
+"すべての購読者に送信されるようにスケジュールされます。ニュースレターは自動返"
+"信メールより優先順位が低いので、その日の自動返信メールが全て送信された後に送"
+"信されます。"
+
+#: views/newsletter.html.php:34
+msgid "Important!"
+msgstr "重要！"
+
+#: views/newsletter.html.php:22
+msgid "Newsletter contents:"
+msgstr "ニュースレターの内容："
+
+#: views/newsletter.html.php:17
+msgid "Newsletter Subject:"
+msgstr "ニュースレターの件名："
+
+#: views/newsletter.html.php:7
+msgid "Send Instant Newsletter"
+msgstr "インスタント・ニュースレターの送信"
+
+#: views/newsletter-archive.html.php:26
+msgid "Next &gt;&gt;"
+msgstr "次へ &gt;&gt；"
+
+#: views/newsletter-archive.html.php:22
+msgid "&lt;&lt; Previous"
+msgstr "&lt;&lt; 前へ"
+
+#: views/newsletter-archive.html.php:6
+msgid "Date"
+msgstr "日付"
+
+#: views/newsletter-archive.html.php:5
+msgid "Newsletter"
+msgstr "ニュースレター"
+
+#: views/message-config.html.php:23
+msgid "The subject cannot be empty."
+msgstr "件名を空欄にできません。"
+
+#: views/message-config.html.php:14
+msgid "Go Back"
+msgstr "戻る"
+
+#: views/message-config.html.php:12
+msgid "Inside the message you can use the following variables:"
+msgstr "メッセージの中では、以下の変数を使うことができる："
+
+#: views/message-config.html.php:10
+msgid "(You can enter multiple notification emails separated by comma)"
+msgstr "(カンマ区切りで複数の通知メールを入力できます）"
+
+#: views/message-config.html.php:10
+msgid "Notifications email(s):"
+msgstr "通知メール："
+
+#: views/message-config.html.php:6
+msgid "If you don't configure this message, a default message will be used."
+msgstr "このメッセージを設定しない場合、デフォルトのメッセージが使用されます。"
+
+#: views/message-config.html.php:4
+msgid "Message type:"
+msgstr "メッセージの種類："
+
+#: views/message-config.html.php:2
+msgid "Configure Email Notification Message"
+msgstr "電子メール通知メッセージの設定"
+
+#: views/list-user.html.php:30
+msgid "Save subscriber"
+msgstr "購読者の保存"
+
+#: views/list-user.html.php:25
+msgid "Date subscribed:"
+msgstr "加入日："
+
+#: views/list-user.html.php:18 views/raw-email-log.html.php:42
+msgid "Status"
+msgstr "ステータス"
+
+#: views/list-user.html.php:10
+msgid "Email address:"
+msgstr "メールアドレス："
+
+#: views/list-user.html.php:6
+msgid "Back to all subscribers"
+msgstr "すべての購読者に戻る"
+
+#: views/list-user.html.php:4
+msgid "Edit Subscriber"
+msgstr "購読者の編集"
+
+#: views/integration-wpforms.html.php:56
+msgid ""
+"You can choose a checkbox from the WPforms form that shoud be selected to "
+"subscribe the user in the list. If you don't select such checkbox, everyone "
+"who submits the associated WPforms form will be subscribed to the mailing "
+"list."
+msgstr ""
+"WPformsフォームから、ユーザーをメーリングリストに登録するためのチェックボック"
+"スを選択することができます。そのようなチェックボックスを選択しない場合、関連"
+"する WPforms フォームを送信した全員がメーリングリストに登録されます。"
+
+#: views/integration-wpforms.html.php:23
+msgid ""
+"You need to select which fields from the WPForms form correspond to the "
+"fields in the mailing list. The only mailing list field that requires a "
+"corresponding form field is email. All other fields can be omitted."
+msgstr ""
+"WPFormsフォームのどのフィールドがメーリングリストのフィールドに対応するかを選"
+"択する必要があります。対応するフォームフィールドが必要なメーリングリストの"
+"フィールドはemailだけです。その他のフィールドは省略可能です。"
+
+#: views/integration-wpforms.html.php:12
+msgid "Select WPForms Form:"
+msgstr "WPFormsフォームを選択します："
+
+#: views/integration-wpforms.html.php:5
+msgid ""
+"This page is available because you have installed and activated the plugin "
+"<a href=\"%s\" target=\"_blank\">WPForms</a>. It lets you connect the form "
+"to your Arigato  mailing list so when the form is submitted the user is also "
+"subscribed to the mailing list."
+msgstr ""
+"このページは、プラグイン <a href=\"%s\" target=\"_blank\">WPForms</a> をイン"
+"ストールして有効化しているために利用できます。このプラグインはフォームを "
+"Arigato メーリングリストに接続し、フォームが送信されたときにユーザーもメーリ"
+"ングリストに登録されるようにします。"
+
+#: views/integration-wpforms.html.php:4
+msgid "Integrate Your Mailing List With a WPForms"
+msgstr "WPFormsでメーリングリストを統合する"
+
+#: views/integration-ninja-form.html.php:56
+msgid ""
+"You can choose a checkbox from the Ninja form that shoud be selected to "
+"subscribe the user in the list. If you don't select such checkbox, everyone "
+"who submits the associated Ninja form will be subscribed to the mailing list."
+msgstr ""
+"忍者フォームから、ユーザーをメーリングリストに登録するためのチェックボックス"
+"を選択することができます。そのようなチェックボックスを選択しない場合、関連す"
+"る忍者フォームを送信した全員がメーリングリストに登録されます。"
+
+#: views/integration-ninja-form.html.php:50
+msgid "- No checkbox required -"
+msgstr "- チェックボックスは不要"
+
+#: views/integration-ninja-form.html.php:23
+msgid ""
+"You need to select which fields from the Ninja form correspond to the fields "
+"in the mailing list. The only mailing list field that requires a "
+"corresponding form field is email. All other fields can be omitted."
+msgstr ""
+"忍者フォームのどのフィールドがメーリングリストのフィールドに対応するかを選択"
+"する必要があります。対応するフォームフィールドが必要なメーリングリストの"
+"フィールドはemailだけです。その他のフィールドは省略可能です。"
+
+#: views/integration-ninja-form.html.php:12
+msgid "Select Ninja Form:"
+msgstr "忍者フォームを選択："
+
+#: views/integration-ninja-form.html.php:5
+msgid ""
+"This page is available because you have installed and activated the plugin "
+"<a href=\"%s\" target=\"_blank\">Ninja Forms</a>. It lets you connect the "
+"form to your Arigato  mailing list so when the form is submitted the user is "
+"also subscribed to the mailing list."
+msgstr ""
+"このページを利用できるのは、プラグイン <a href=\"%s\" "
+"target=\"_blank\">Ninja Forms</a> をインストールして有効化しているからです。"
+"これによりフォームを Arigato メーリングリストに接続することができ、フォームが"
+"送信されるとユーザーもメーリングリストに登録されます。"
+
+#: views/integration-ninja-form.html.php:4
+msgid "Integrate Your Mailing List With Nija Form"
+msgstr "ニジャフォームでメーリングリストを統合する"
+
+#: views/integration-formidable-form.html.php:59
+#: views/integration-ninja-form.html.php:59
+#: views/integration-wpforms.html.php:59
+msgid "Save integration"
+msgstr "統合の保存"
+
+#: views/integration-formidable-form.html.php:56
+msgid ""
+"You can choose a checkbox from the Formidable form that shoud be selected to "
+"subscribe the user in the list. If you don't select such checkbox, everyone "
+"who submits the associated WPforms form will be subscribed to the mailing "
+"list."
+msgstr ""
+"Formidable フォームから、ユーザーをメーリングリストに登録するためのチェック"
+"ボックスを選択することができます。そのようなチェックボックスを選択しない場"
+"合、関連する WPforms フォームを送信した人全員がメーリングリストに登録されま"
+"す。"
+
+#: views/integration-formidable-form.html.php:48
+#: views/integration-ninja-form.html.php:48
+#: views/integration-wpforms.html.php:48
+msgid "Checkbox to confirm"
+msgstr "チェックボックスで確認"
+
+#: views/integration-formidable-form.html.php:39
+#: views/integration-formidable-form.html.php:50
+#: views/integration-ninja-form.html.php:39
+#: views/integration-wpforms.html.php:39 views/integration-wpforms.html.php:50
+msgid "- No matching field -"
+msgstr "一致するフィールドがない"
+
+#: views/integration-formidable-form.html.php:37
+#: views/integration-ninja-form.html.php:37
+#: views/integration-wpforms.html.php:37
+msgid "Name field"
+msgstr "名前欄"
+
+#: views/integration-formidable-form.html.php:28
+#: views/integration-ninja-form.html.php:28
+#: views/integration-wpforms.html.php:28
+msgid "- Please select -"
+msgstr "- を選択してください"
+
+#: views/integration-formidable-form.html.php:26
+#: views/integration-ninja-form.html.php:26
+#: views/integration-wpforms.html.php:26
+msgid "Email field"
+msgstr "電子メール欄"
+
+#: views/integration-formidable-form.html.php:23
+msgid ""
+"You need to select which fields from the Formidable form correspond to the "
+"fields in the mailing list. The only mailing list field that requires a "
+"corresponding form field is email. All other fields can be omitted."
+msgstr ""
+"Formidable フォームのどのフィールドがメーリングリストのフィールドに対応するか"
+"を選択する必要があります。対応するフォームフィールドが必要なメーリングリスト"
+"フィールドはemailだけです。その他のフィールドは省略可能です。"
+
+#: views/integration-formidable-form.html.php:21
+#: views/integration-ninja-form.html.php:21
+#: views/integration-wpforms.html.php:21
+msgid "Mailing list fields"
+msgstr "メーリングリスト・フィールド"
+
+#: views/integration-formidable-form.html.php:14
+#: views/integration-ninja-form.html.php:14
+#: views/integration-wpforms.html.php:14
+msgid "-Please select-"
+msgstr "-選択してください"
+
+#: views/integration-formidable-form.html.php:12
+msgid "Select Formidable Form:"
+msgstr "Formidable Formを選択する："
+
+#: views/integration-formidable-form.html.php:7
+#: views/integration-ninja-form.html.php:7 views/integration-wpforms.html.php:7
+msgid "Back to your mailing list"
+msgstr "メーリングリストに戻る"
+
+#: views/integration-formidable-form.html.php:5
+msgid ""
+"This page is available because you have installed and activated the plugin "
+"<a href=\"%s\" target=\"_blank\">Formidable Forms</a>. It lets you connect "
+"the form to your Arigato  mailing list so when the form is submitted the "
+"user is also subscribed to the mailing list."
+msgstr ""
+"このページはプラグイン <a href=\"%s\" target=\"_blank\">Formidable Forms</a> "
+"をインストールして有効化していることで利用できます。フォームを Arigato メーリ"
+"ングリストに接続することで、フォームが送信されたときにユーザーもメーリングリ"
+"ストに登録されます。"
+
+#: views/integration-formidable-form.html.php:4
+msgid "Integrate Your Mailing List With a Formidable Form"
+msgstr "Formidable Formを使ったメーリングリストの統合"
+
+#: views/integration-contact-form.html.php:56
+msgid ""
+"In the <a href=\"%s\" target=\"_blank\">PRO Version</a> you can also include "
+"all custom fields directly in your contact form."
+msgstr ""
+"<a href=\"%s\" target=\"_blank\">PRO バージョン</a>では、すべてのカスタム"
+"フィールドを直接コンタクトフォームに含めることもできます。"
+
+#: views/integration-contact-form.html.php:52
+msgid ""
+"Place this shortcode inside the published shortcode of your contact form - "
+"somewhere before the closing \"[/contact-form]\" shortcode."
+msgstr ""
+"このショートコードを、コンタクトフォームの公開ショートコードの内側、つまり"
+"「[/contact-form]」ショートコードを閉じる前のどこかに配置します。"
+
+#: views/integration-contact-form.html.php:51
+msgid "Jetpack Contact Form Integration"
+msgstr "Jetpackコンタクトフォームの統合"
+
+#: views/integration-contact-form.html.php:48
+msgid ""
+"If you are using Contact Form 7 we also recommend checking out the database "
+"management tool <a href=\"%s\" target=\"_blank\">Data Tensai</a>."
+msgstr ""
+"Contact Form 7 を使っているなら、データベース管理ツール <a href=\"%s\" "
+"target=\"_blank\">Data Tensai</a> もチェックすることをお勧めします。"
+
+#: views/integration-contact-form.html.php:46
+msgid "Change field names"
+msgstr "フィールド名の変更"
+
+#: views/integration-contact-form.html.php:45
+msgid "These field names are the same for all your mailing lists."
+msgstr "これらのフィールド名はすべてのメーリングリストに共通です。"
+
+#: views/integration-contact-form.html.php:41
+msgid "Email field name:"
+msgstr "電子メールのフィールド名："
+
+#: views/integration-contact-form.html.php:37
+msgid "Name field name:"
+msgstr "フィールド名："
+
+#: views/integration-contact-form.html.php:34
+msgid ""
+"<b>IMPORTANT:</b> By default Contact Form 7 creates shortcodes with "
+"parameters \"your-name\" for the name field, and \"your-email\" for the "
+"email field. If you have changed this you must reflect this in the boxes "
+"below otherwise the integration will not work."
+msgstr ""
+"<b>重要:</b> デフォルトでは Contact Form 7 は名前フィールドに \"your-name\"、"
+"メールアドレスフィールドに \"your-email\" というパラメータを持つショートコー"
+"ドを作成します。これを変更した場合は以下のボックスに反映させてください。"
+
+#: views/integration-contact-form.html.php:33
+msgid ""
+"Place this shortcode inside your Contact Form 7 contact form - right where "
+"you want the checkbox to appear."
+msgstr ""
+"このショートコードを Contact Form 7 のコンタクトフォームの、チェックボックス"
+"を表示させたい場所に設置してください。"
+
+#: views/integration-contact-form.html.php:32
+msgid "Contact Form 7 Integration"
+msgstr "Contact Form 7 の統合"
+
+#: views/integration-contact-form.html.php:28
+msgid "Subscribe for the mailing list"
+msgstr "メーリングリストに登録する"
+
+#: views/integration-contact-form.html.php:27
+msgid "Shortcode to use in contact form:"
+msgstr "コンタクトフォームで使用するショートコード："
+
+#: views/integration-contact-form.html.php:24
+msgid "Refresh Shortcode"
+msgstr "ショートコードの更新"
+
+#: views/integration-contact-form.html.php:20
+msgid "HTML ID (optional):"
+msgstr "HTML ID (任意)："
+
+#: views/integration-contact-form.html.php:15
+msgid "CSS classes (optional):"
+msgstr "CSSクラス（任意）："
+
+#: views/integration-contact-form.html.php:12
+msgid "Checked by default"
+msgstr "デフォルトでチェックが入っている"
+
+#: views/integration-contact-form.html.php:7
+msgid ""
+"Using the shortcode below will display a checkbox for subscribing in the "
+"mailing list inside your contact form. We currently support integration with "
+"the most popular contact form plugins - <a href=\"%s\" "
+"target=\"_blank\">Contact Form 7</a> and JetPack."
+msgstr ""
+"以下のショートコードを使用すると、お問い合わせフォーム内にメーリングリストに"
+"登録するためのチェックボックスが表示されます。現在、最も人気のあるお問い合わ"
+"せフォームプラグインである<a href=\"%s\" target=\"_blank\">Contact Form 7</a>"
+"とJetPackとの統合をサポートしています。"
+
+#: views/integration-contact-form.html.php:5
+msgid "Back to settings"
+msgstr "セッティングに戻る"
+
+#: views/integration-contact-form.html.php:4
+msgid "Mailing List to Contact Form Integration"
+msgstr "メーリングリストとコンタクトフォームの統合"
+
+#: views/help.html.php:62
+msgid ""
+"<b>%s</b> - called after sending newsletter. Passes the newsletter ID and "
+"the number of emails sent."
+msgstr ""
+"<b>%s</b> - ニュースレター送信後に呼び出されます。ニュースレターIDと送信され"
+"たメールの数を渡します。"
+
+#: views/help.html.php:61
+msgid ""
+"<b>%s</b> - called when the plugin completes the cron job (once on each "
+"run). No arguments passed."
+msgstr ""
+"<b>%s</b> - プラグインがクーロンジョブを完了した時に呼び出されます(各実行時に"
+"1回)。引数は渡されません。"
+
+#: views/help.html.php:60
+msgid "<b>%s</b> - called when the plugin sent welcome email."
+msgstr ""
+"<b>%s</b> - プラグインがウェルカムメールを送信したときに呼び出されます。"
+
+#: views/help.html.php:59
+msgid "<b>%s</b> - called when user unsubscribes. Sends the full user object."
+msgstr ""
+"<b>%s</b> - ユーザが登録を解除したときに呼び出されます。完全なユーザ・オブ"
+"ジェクトを送信します。"
+
+#: views/help.html.php:58
+msgid "<b>%s</b> - called on successful double opt-in confirmation."
+msgstr "<b>%s</b> - ダブルオプトインの確認が成功した場合に呼び出されます。"
+
+#: views/help.html.php:57
+msgid ""
+"<b>%s</b> - called when the new user subscribes. The artugment %s is true "
+"when the subscriber is already activated and false when double optin "
+"confirmation is expected."
+msgstr ""
+"<b>%s</b> - 新しいユーザーが購読するときに呼び出されます。引数%sは、購読者が"
+"既にアクティブになっている場合はtrue、ダブル・オプトインの確認が期待される場"
+"合はfalseです。"
+
+#: views/help.html.php:56
+msgid ""
+"<b>%s</b> - called when the plugin send email. The argument %s is true when "
+"the email was sent successfully and false on failure."
+msgstr ""
+"<b>%s</b> - プラグインがメールを送信するときに呼び出されます。引数%sはメール"
+"の送信が成功した場合はtrue、失敗した場合はfalseになります。"
+
+#: views/help.html.php:53
+msgid ""
+"Arigato fires several actions which can help you integrate it with other "
+"plugins or custom functions:"
+msgstr ""
+"Arigatoは、他のプラグインやカスタム関数と統合するのに役立ついくつかのアクショ"
+"ンを実行します："
+
+#: views/help.html.php:51
+msgid "Developers API"
+msgstr "開発者向けAPI"
+
+#: views/help.html.php:49
+msgid ""
+"To localize the plugin in your language check <a href=\"%s\" "
+"target=\"_blank\">this guide</a>. Note that our plugin textdomain is "
+"\"<b>broadfast</b>\" and the .po and .mo files should go into folder wp-"
+"content/languages/plugins"
+msgstr ""
+"プラグインをあなたの言語にローカライズするには、<a href=\"%s\" "
+"target=\"_blank\">このガイド</a>を参照してください。なお、当社のプラグインの"
+"テキストドメインは \"<b>broadfast</b>\" であり、.po および .mo ファイルは wp-"
+"content/languages/plugins フォルダに配置する必要があります"
+
+#: views/help.html.php:47
+msgid "Localization / translation"
+msgstr "ローカリゼーション／翻訳"
+
+#: views/help.html.php:44
+msgid ""
+"By default Arigato immediately unsubscribes users who have clicked the "
+"unsubscribe link and redirects them to the home page. If you wish to have a "
+"confirmation page for unsubscribes you can insert the shortcode %s in a post "
+"or page of your choice. Arigato will send unsubscribing users to it."
+msgstr ""
+"デフォルトでは、Arigatoは配信停止リンクをクリックしたユーザーを即座に配信停止"
+"し、トップページにリダイレクトします。配信停止の確認ページを設けたい場合は、"
+"ショートコード %s をお好きな投稿やページに挿入してください。Arigatoは配信停止"
+"ユーザーをそのページに送ります。"
+
+#: views/help.html.php:42
+msgid "Unsubscribe Page"
+msgstr "配信停止ページ"
+
+#: views/help.html.php:40
+msgid ""
+"This auto responder uses the standard Wordpress \"wp_mail\" function. This "
+"means you can easily send your emails by SMTP if you install a plugin like "
+"<a href=\"http://wordpress.org/extend/plugins/wp-mail-smtp/\" "
+"target=\"_blank\">WP Mail SMTP</a>."
+msgstr ""
+"このオートレスポンダーは、標準のWordPress \"wp_mail\" 関数を使用しています。"
+"これは、<a href=\"http://wordpress.org/extend/plugins/wp-mail-smtp/\" "
+"target=\"_blank\">WP Mail SMTP</a>のようなプラグインをインストールすれば、簡"
+"単にSMTP経由でメールを送信できることを意味します。"
+
+#: views/help.html.php:39
+msgid "Using SMTP"
+msgstr "SMTPの使用"
+
+#: views/help.html.php:37
+msgid ""
+"You can use the tags <b>{{email}}</b> and <b>{{name}}</b> both in the "
+"subject and the contents of your messages. They will be replaced with user's "
+"email and name."
+msgstr ""
+"メッセージの件名および本文には、<b>{{email}}</b> および <b>{{name}}</b> のタ"
+"グを使用できます。これらはユーザーのメールアドレスと名前で置き換えられます。"
+
+#: views/help.html.php:36
+msgid "Customization of the messages"
+msgstr "メッセージのカスタマイズ"
+
+#: views/help.html.php:34
+msgid ""
+"To create a <b>Welcome mail</b> just enter \"0\" in \"Days after "
+"registration\" field. Such emails will be sent out immediately when the user "
+"is imported, added or registers (when double opt-in is \"yes\" the last case "
+"to be read \"when the user confirms\")."
+msgstr ""
+"<b>ウェルカムメール</b>を作成するには、\"登録後日数 \"フィールドに \"0 \"を入"
+"力してください。このようなメールは、ユーザーがインポート、追加、登録されると"
+"すぐに送信されます（ダブルオプトインが \"yes \"の場合、最後のケースは \"ユー"
+"ザーが確認したとき \"と読み替えてください）。"
+
+#: views/help.html.php:32
+msgid ""
+"Use this page to add, edit and delete autoresponder mails. In \"Days after "
+"registration\" enter a number which will represent how many days after user "
+"registration the email will be sent to the user. There should be only one "
+"email scheduled for each number of days."
+msgstr ""
+"このページでは、自動返信メールの追加、編集、削除を行います。登録後日数 \"に"
+"は、ユーザー登録から何日後にメールが送信されるかを表す数字を入力してくださ"
+"い。各日数に対して1通のメールしか送信されません。"
+
+#: views/help.html.php:29
+msgid ""
+"When importing members they will automatically be activated. If there are "
+"any welcome mails set, those will be sent out. Importing a lot of members at "
+"once and having a welcome mail scheduled at the same time may slow down your "
+"site."
+msgstr ""
+"メンバーをインポートすると、自動的にアクティベートされます。ウェルカムメール"
+"が設定されている場合は、それが送信されます。一度に多くの会員をインポートし、"
+"同時にウェルカムメールを設定すると、サイトの動作が遅くなる可能性があります。"
+
+#: views/help.html.php:27
+msgid ""
+"In addition to adding members manually, you can import them in batches from "
+"a CSV file. Arigato autoresponder allows you to import CSV file with any "
+"number and order of columns - you only need to specify which column number "
+"(from left to right) in the CSV contains user email and which one - user "
+"name."
+msgstr ""
+"手動でメンバーを追加するだけでなく、CSVファイルから一括でインポートすることも"
+"できます。 Arigato autoresponderでは、CSVファイルのカラム数やカラム順を自由に"
+"指定してインポートすることができます。"
+
+#: views/help.html.php:23
+msgid ""
+"You can use the shortcode %s to display the total number of active "
+"subscribers anywhere on your site."
+msgstr ""
+"ショートコード %s を使用すると、サイト上の任意の場所にアクティブな購読者の合"
+"計数を表示できます。"
+
+#: views/help.html.php:21
+msgid ""
+"Manage your mailing list on this page. You can add, edit and delete "
+"subscribers and activate/deactivate them. When you add a subscriber as "
+"active, she will receive the welcome mail if you have set such (more about "
+"welcome mails in \"Email Messages\" section)."
+msgstr ""
+"このページでメーリングリストを管理します。購読者の追加、編集、削除、有効化/無"
+"効化ができます。購読者をアクティブに追加すると、ウェルカムメールを受け取るこ"
+"とができます。"
+
+#: views/help.html.php:17
+msgid ""
+"Registration form HTML code. Copy this code and paste it anywhere - in a "
+"blog post or page (in HTML mode), in the sidebar or even in other website. "
+"The code is non-editable here on the page - if you want to edit the "
+"appearance, do that on the code that you have copied."
+msgstr ""
+"登録フォームのHTMLコード。このコードをコピーして、ブログの記事やページ（HTML"
+"モード）、サイドバー、他のウェブサイトなど、どこにでも貼り付けてください。も"
+"し見た目を編集したい場合は、コピーしたコードを編集してください。"
+
+#: views/help.html.php:16
+msgid ""
+"Double opt in. When \"yes\" is selected, the subscribers to your list will "
+"be sent an email with confirmation link and will be activated only when this "
+"link is clicked."
+msgstr ""
+"ダブルオプトイン。”はい \"を選択すると、リスト購読者に確認リンク付きのメール"
+"が送信され、このリンクがクリックされた場合にのみ有効になります。"
+
+#: views/help.html.php:15
+msgid ""
+"URL after registration. This setting allows you to redirect the user to a "
+"specific page (some sales page, help etc) after they sign up for the "
+"autoresponder. You can leave it blank."
+msgstr ""
+"登録後のURL。この設定により、ユーザーがオートレスポンダーに登録した後、特定の"
+"ページ（販売ページやヘルプなど）にリダイレクトさせることができます。空白のま"
+"までもかまいません。"
+
+#: views/help.html.php:14
+msgid ""
+"Sender of all emails. This is the \"From\" email address that will be used "
+"to send your autoresponder messages."
+msgstr ""
+"すべてのメールの送信者。自動返信メッセージの送信に使用する「差出人」メールア"
+"ドレスです。"
+
+#: views/help.html.php:12
+msgid "This is the current page. Here you can set several important settings:"
+msgstr ""
+"これは現在のページです。ここでいくつかの重要な設定を行うことができます："
+
+#: views/help.html.php:11
+msgid "General Settings"
+msgstr "基本設定"
+
+#: views/help.html.php:9
+msgid ""
+"In order to send automated sequential emails every day your blog should be "
+"visited at least once daily. If this is not happening, please set up a cron "
+"job to visit it."
+msgstr ""
+"自動連続メールを毎日送信するためには、ブログが少なくとも毎日1回は訪問される必"
+"要があります。もしそうなっていない場合は、cronジョブを設定してください。"
+
+#: views/help.html.php:8
+msgid "Automated autoresponder emails"
+msgstr "自動返信メール"
+
+#: views/help.html.php:5
+msgid ""
+"This is a short introduction to Arigato Lite. It is very simple and easy to "
+"use. For more advanced features you can check our <a href=\"http://"
+"calendarscripts.info/bft-pro\">PRO version</a>. You can copy all your data "
+"with a single click."
+msgstr ""
+"これはArigato Liteの簡単な紹介です。非常にシンプルで使いやすいです。より高度"
+"な機能については、<a href=\"http://calendarscripts.info/bft-pro\" "
+"target=\"_blank\">PROバージョン</a>をご確認いただけます。すべてのデータを一括"
+"でコピーすることも可能です。"
+
+#: views/help.html.php:4
+msgid "User Manual"
+msgstr "ユーザーマニュアル"
+
+#: views/bft_messages.html.php:127
+msgid "Please enter number of days after registration"
+msgstr "登録後の日数を入力してください"
+
+#: views/bft_messages.html.php:120 views/newsletter.html.php:82
+msgid "Please enter subject"
+msgstr "件名を入力してください"
+
+#: views/bft_messages.html.php:89 views/message-config.html.php:13
+msgid "Save Message"
+msgstr "メッセージを保存"
+
+#: views/bft_messages.html.php:53
+msgid "Existing Messages:"
+msgstr "既存のメッセージ："
+
+#: views/bft_messages.html.php:45
+msgid "Add Message"
+msgstr "メッセージを追加"
+
+#: views/bft_messages.html.php:43
+msgid ""
+"Note: an unsubscribe link with default text is added to your outgoing "
+"messages. You can however use the variables %s or %s with your custom text. "
+"The variable will be replaced with the unsubscribe link or URL"
+msgstr ""
+"注意：デフォルトのテキストで配信停止リンクが送信メッセージに追加されます。し"
+"かし、変数 %s または %s をカスタムテキストで使用することができます。変数は配"
+"信停止リンクまたはURLに置き換えられます"
+
+#: views/bft_messages.html.php:38 views/bft_messages.html.php:82
+msgid "Upload attachments (optional):"
+msgstr "添付ファイルをアップロードする（任意）："
+
+#: views/bft_messages.html.php:33 views/bft_messages.html.php:77
+#: views/newsletter.html.php:30
+msgid "Text"
+msgstr "テキスト形式"
+
+#: views/bft_messages.html.php:32 views/bft_messages.html.php:76
+#: views/newsletter.html.php:29
+msgid "HTML"
+msgstr "HTML形式"
+
+#: views/bft_messages.html.php:30 views/bft_messages.html.php:74
+#: views/newsletter.html.php:27
+msgid "Email type:"
+msgstr "Eメールの種類："
+
+#: views/bft_messages.html.php:25 views/bft_messages.html.php:69
+msgid "send on"
+msgstr "次の日付で送信"
+
+#: views/bft_messages.html.php:23 views/bft_messages.html.php:67
+msgid "or"
+msgstr "または"
+
+#: views/bft_messages.html.php:20 views/bft_messages.html.php:64
+msgid "Days after registration:"
+msgstr "登録後からの日数："
+
+#: views/bft_messages.html.php:18 views/bft_messages.html.php:62
+#: views/message-config.html.php:11
+msgid "Message:"
+msgstr "メッセージ："
+
+#: views/bft_messages.html.php:15 views/bft_messages.html.php:59
+#: views/message-config.html.php:9
+msgid "Subject:"
+msgstr "件名："
+
+#: views/bft_messages.html.php:10
+msgid "Create New Message:"
+msgstr "新しいメッセージを作成する："
+
+#: views/bft_messages.html.php:7
+msgid ""
+"Note: you can use the variable {{name}} in any message to address the user "
+"by name."
+msgstr ""
+"注意：どのようなメッセージでも{{name}}という変数を使えば、ユーザーを名前で呼"
+"ぶことができます"
+
+#: views/bft_main.html.php:251
+msgid "Save Double Opt-in Message"
+msgstr "ダブルオプトインメッセージの保存"
+
+#: views/bft_main.html.php:248
+msgid ""
+"You can use the variable %s to address the user by name and the variables %s "
+"and %s."
+msgstr ""
+"変数%sを使えば、ユーザーを名前で呼ぶことができ、変数%sと%sを使うことができる"
+
+#: views/bft_main.html.php:247
+msgid ""
+"Please use the variable {{url}} to provide the confirmation URL. If you do "
+"not provide it, it will be attached at the end of the message."
+msgstr ""
+"変数{{url}}を使用して、確認用URLを入力してください。ご記入がない場合は、メッ"
+"セージの最後に添付されます"
+
+#: views/bft_main.html.php:243
+msgid "Message subject:"
+msgstr "メッセージの件名："
+
+#: views/bft_main.html.php:240
+msgid ""
+"Feel free to leave this empty - in such case a default message will be used."
+msgstr "空白のままで構いません。その場合、デフォルトのメッセージが使用されます"
+
+#: views/bft_main.html.php:239
+msgid "Double Opt-in Email Message Configuration"
+msgstr "ダブルオプトインメールメッセージの設定"
+
+#: views/bft_main.html.php:235
+msgid "Do not display confirmation popup alert when email is confirmed."
+msgstr "メールが確認されたときに確認ポップアップアラートを表示しない"
+
+#: views/bft_main.html.php:234
+msgid ""
+"(If you leave this empty, the value from  \"URL to redirect to after "
+"registration\" will be used)"
+msgstr "(空欄の場合、「登録後のリダイレクト先URL」の値が使用されます)"
+
+#: views/bft_main.html.php:231
+msgid "URL to redirect after double opt-in (optional):"
+msgstr "ダブルオプトイン後にリダイレクトするURL（任意）："
+
+#: views/bft_main.html.php:229
+msgid "Double Opt-in Redirect Configuration"
+msgstr "ダブル・オプトイン・リダイレクトの設定"
+
+#: views/bft_main.html.php:226
+msgid "Double Opt-in Settings"
+msgstr "ダブルオプトインの設定"
+
+#: views/bft_main.html.php:212
+msgid ""
+"Or use the registration form HTML code <br>(Copy and paste in a post, page "
+"or your wordpress template):"
+msgstr ""
+"または、登録フォームのHTMLコード<br>をご利用ください（投稿、ページ、または"
+"ワードプレスのテンプレートにコピー＆ペーストしてください）："
+
+#: views/bft_main.html.php:208
+msgid "Place it inside a post or page."
+msgstr "投稿または固定ページ内に配置する"
+
+#: views/bft_main.html.php:207
+msgid "Sign Up"
+msgstr "登録する"
+
+#: views/bft_main.html.php:206
+msgid "WordPress shortcode:"
+msgstr "WordPressのショートコード："
+
+#: views/bft_main.html.php:201
+msgid "Update"
+msgstr "更新"
+
+#: views/bft_main.html.php:200
+msgid ""
+"Allow passing pre-populated values by GET. Use URL parameters 'arigato_name' "
+"and 'arigato_email' to pass values."
+msgstr ""
+"GETで事前に入力された値を渡せるようにする。値を渡すにはURLパラメー"
+"タ'arigato_name'と'arigato_email'を使用してください"
+
+#: views/bft_main.html.php:199
+msgid "Make 'name' required (email is always required)"
+msgstr "”名前”を必須にする（Eメールは常に必須）"
+
+#: views/bft_main.html.php:197
+msgid "Signup Form"
+msgstr "登録フォーム"
+
+#: views/bft_main.html.php:190
+msgid "Save Settings"
+msgstr "設定の保存"
+
+#: views/bft_main.html.php:185
+msgid "Only administrator or superadmin can change this!"
+msgstr "管理者または上級管理者のみが変更できます！"
+
+#: views/bft_main.html.php:175
+msgid ""
+"By default only Administrator and Super admin can manage the autoresponder. "
+"You can enable other roles here."
+msgstr ""
+"デフォルトでは、管理者と上級管理者のみが自動応答を管理できます。ここで他の"
+"ロールを有効にすることができます"
+
+#: views/bft_main.html.php:174
+msgid "Roles that can manage the autoresponder"
+msgstr "オートレスポンダーを管理できる役割"
+
+#: views/bft_main.html.php:171
+msgid "Roles"
+msgstr "役割"
+
+#: views/bft_main.html.php:163
+msgid ""
+"You need to create keys for your domains and for the different reCaptcha "
+"versions. If you want to test the captcha on localhost you have to create a "
+"key for \"localhost\"."
+msgstr ""
+"ドメインとreCaptchaのバージョンごとにキーを作成する必要があります。localhost"
+"でcaptchaをテストしたい場合は、\"localhost \"用のキーを作成する必要があります"
+
+#: views/bft_main.html.php:160
+msgid ""
+"For more information check reCaptcha v3 docs. If you are unsure just leave "
+"the default of 0.5"
+msgstr ""
+"詳しくはreCaptcha v3のドキュメントをご覧ください。よくわからない場合は、デ"
+"フォルトの0.5のままにしておいてください"
+
+#: views/bft_main.html.php:155
+msgid "Valid response threshold score:"
+msgstr "有効なレスポンスのしきい値スコア："
+
+#: views/bft_main.html.php:150
+msgid "See language codes"
+msgstr "言語コードを参照"
+
+#: views/bft_main.html.php:148
+msgid "Language code:"
+msgstr "言語コード："
+
+#: views/bft_main.html.php:144
+msgid "Compact"
+msgstr "コンパクト"
+
+#: views/bft_main.html.php:143
+msgid "Normal"
+msgstr "ノーマル"
+
+#: views/bft_main.html.php:141
+msgid "Size:"
+msgstr "サイズ："
+
+#: views/bft_main.html.php:135
+msgid "3 (invisible reCaptcha)"
+msgstr "3 (不可視のreCaptcha)"
+
+#: views/bft_main.html.php:134
+msgid "2 (no Captcha reCaptcha)"
+msgstr "2 (Captcha reCaptchaなし)"
+
+#: views/bft_main.html.php:132
+msgid "reCaptcha Version:"
+msgstr "reCaptchaのバージョン："
+
+#: views/bft_main.html.php:127
+msgid "Secret key:"
+msgstr "秘密の鍵："
+
+#: views/bft_main.html.php:122
+msgid "Site key:"
+msgstr "サイトキー："
+
+#: views/bft_main.html.php:119
+msgid ""
+"You can optionally enable <a href='http://www.google.com/recaptcha' "
+"target='_blank'>ReCaptcha</a> to prevent spam bots to register to your "
+"mailing lists. You will need a ReCaptcha API key. You can <a href='http://"
+"www.google.com/recaptcha/whyrecaptcha' target='_blank'>get one here</a>. "
+"It's free."
+msgstr ""
+"スパムボットがメーリングリストに登録するのを防ぐために、オプションで<a "
+"href='http://www.google.com/recaptcha' target='_blank'>ReCaptcha</a>を有効に"
+"することができます。ReCaptcha APIキーが必要です。 <a href='http://www.google."
+"com/recaptcha/whyrecaptcha' target='_blank'>こちらから入手</a>できます。無料"
+"です"
+
+#: views/bft_main.html.php:116
+msgid "Use Google reCaptcha to prevent spam."
+msgstr "Google reCaptchaを使用してスパムを防ぐ"
+
+#: views/bft_main.html.php:111
+msgid ""
+"This is a simple text-based captcha. We have loaded 3 basic questions but "
+"you can edit them and load your own. Make sure to enter only one question "
+"per line and use = to separate question from answer."
+msgstr ""
+"これはシンプルなテキストベースのキャプチャです。私たちは3つの基本的な質問を"
+"ロードしていますが、あなたはそれらを編集し、独自の質問をロードすることができ"
+"ます。必ず1行に1つの質問のみを入力し、質問と答えを=で区切ってください"
+
+#: views/bft_main.html.php:109
+msgid "Question based captcha"
+msgstr "質問ベースのキャプチャ"
+
+#: views/bft_main.html.php:107
+msgid ""
+"Note that when question based captcha is enbabled, you cannot use the HTML "
+"signup code! Only the WP shortcode will work."
+msgstr ""
+"質問ベースのキャプチャが有効になっている場合、HTMLサインアップコードは使用で"
+"きないことに注意してください！WPショートコードのみが機能します"
+
+#: views/bft_main.html.php:104
+msgid "Use question based captcha</a> to prevent spam."
+msgstr "質問ベースのキャプチャ</a>を使用してスパムを防止します"
+
+#: views/bft_main.html.php:103
+msgid "Anti-Spam: Captcha and reCaptcha"
+msgstr "アンチスパム：CaptchaとreCaptcha"
+
+#: views/bft_main.html.php:99
+msgid "Do not display JS popup alert when user has been un-subscribed."
+msgstr "ユーザが購読を解除したときにJSポップアップアラートを表示しない"
+
+#: views/bft_main.html.php:98
+msgid "Do not display JS popup alert when user has been subscribed."
+msgstr "ユーザが購読したときにJSポップアップアラートを表示しない"
+
+#: views/bft_main.html.php:95
+msgid ""
+"If you are getting bounced emails with warnings that you are sending too "
+"fast, your server may be in danger of being blacklisted. In such case try to "
+"define some artificial delay. Usually values between 0.1 and 1 second work "
+"best."
+msgstr ""
+"送信速度が速すぎるという警告とともにバウンスメールが送られてくる場合は、サー"
+"バーがブラックリストに登録される危険性があります。このような場合は、人工的な"
+"遅延を定義してみてください。通常、0.1秒から1秒の間の値が最適です"
+
+#: views/bft_main.html.php:92
+msgid "In seconds, decimals accepted. Example: 0.1"
+msgstr "秒単位、小数可。例：0.1"
+
+#: views/bft_main.html.php:90
+msgid "Artificial delay between emails:"
+msgstr "電子メール間の人工的な遅延："
+
+#: views/bft_main.html.php:87
+msgid ""
+"Leave 0 or blank for no limit. This option will be useful on shared hosts "
+"which limit the number of emails you can send per hour. Note that this limit "
+"does not relate to instant newsletters and welcome emails and they will not "
+"be considered in the total number of emails sent."
+msgstr ""
+"制限なしの場合は0または空白のままにします。このオプションは、1時間に送信でき"
+"るメール数を制限している共有ホストで役立ちます。この制限は、インスタント"
+"ニュースレターやウェルカムメールには関係なく、送信されたメールの総数には考慮"
+"されないことに注意してください"
+
+#: views/bft_main.html.php:85
+msgid "mails at once."
+msgstr "件のメールを送る"
+
+#: views/bft_main.html.php:83
+msgid "Send up to"
+msgstr "一度に"
+
+#: views/bft_main.html.php:77
+msgid ""
+"You can also run the cron job manually by visiting <a href=\"%s\" "
+"target=\"_blank\">the link</a> in your browser. If there are no errors you "
+"will see just a blank page with text \"Running in cron job mode\"."
+msgstr ""
+"ブラウザで<a href=\"%s\" target=\"_blank\">リンク</a>にアクセスして、cronジョ"
+"ブを手動で実行することもできます。エラーがなければ、\"Running in cron job "
+"mode \"と書かれた空白のページが表示されます"
+
+#: views/bft_main.html.php:75
+msgid ""
+"If your server does not support cron jobs you can use external service to "
+"hit the following URL:"
+msgstr ""
+"あなたのサーバーがcronジョブをサポートしていない場合は、外部サービスを使用し"
+"て、次のURLをヒットすることができます："
+
+#: views/bft_main.html.php:73
+msgid "In case the above does not work on your host please try:"
+msgstr "上記があなたのホストで動作しない場合は、お試しください："
+
+#: views/bft_main.html.php:71
+msgid "The exact command you need to set is:"
+msgstr "正確なコマンドは以下の通り："
+
+#: views/bft_main.html.php:70
+msgid ""
+"Cron jobs are scheduled tasks that run on your server. This is the preferred "
+"setting but you will need to set up a cron job through your web host control "
+"panel. To handle this I recommend to set up a cron job on your server. It "
+"needs to run at least once per day (preferably every hour or so), at a time "
+"chosen by you. Here is a <a href=\"http://calendarscripts.info/cron-jobs-"
+"tutorial.html\" target=\"_blank\">quick and easy guide</a> how to do it."
+msgstr ""
+"Cronジョブは、サーバー上で実行されるスケジュールされたタスクです。これが推奨"
+"される設定ですが、Webホストのコントロールパネルを通じてcronジョブを設定する必"
+"要があります。これを処理するために、サーバー上でcronジョブを設定することをお"
+"勧めします。これは、少なくとも1日に1回（できれば毎時など）、あなたが選んだ時"
+"間に実行する必要があります。こちらは<a href=\"http://calendarscripts.info/"
+"cron-jobs-tutorial.html\" target=\"_blank\">簡単で迅速なガイド</a>です"
+
+#: views/bft_main.html.php:66
+msgid ""
+"(If you don't select this option the email sending will be done when someone "
+"(or a bot) visits your site for the day.)"
+msgstr ""
+"(このオプションを選択しない場合、メール送信は誰か(またはボット)がその日のサイ"
+"トを訪問したときに行われます)"
+
+#: views/bft_main.html.php:65
+msgid "Use this if the default option does not work well"
+msgstr "デフォルトのオプションがうまく機能しない場合に使用する"
+
+#: views/bft_main.html.php:64
+msgid "I will set up a cron job to send my autoresponder emails."
+msgstr "自動返信メールを送信するためにcronジョブを設定します"
+
+#: views/bft_main.html.php:60
+msgid "Twice daily"
+msgstr "1日2回"
+
+#: views/bft_main.html.php:59
+msgid "Daily"
+msgstr "毎日"
+
+#: views/bft_main.html.php:58
+msgid "Hourly"
+msgstr "毎時"
+
+#: views/bft_main.html.php:57
+msgid "Running sequence:"
+msgstr "ランニングシーケンス："
+
+#: views/bft_main.html.php:56
+msgid "I will use WP cron (default behavior)"
+msgstr "WP cron（デフォルトの動作）を使用します"
+
+#: views/bft_main.html.php:49
+msgid "Immediately log them into the site."
+msgstr "すぐにサイトにログインさせる"
+
+#: views/bft_main.html.php:47
+msgid ""
+"When user subscribes to this mailing list register them as subscriber for my "
+"site too. (Happens when the subscription is activated.)"
+msgstr ""
+"ユーザーがこのメーリングリストを購読したら、私のサイトの購読者としても登録す"
+"る。(購読が有効化されたときに発生します)"
+
+#: views/bft_main.html.php:45
+msgid ""
+"Automatically subscribe to the mailing list all new users who register in my "
+"blog. (To avoid spam this will happen when users login for the first time)"
+msgstr ""
+"私のブログに新規登録したユーザーを自動的にリストに登録する。(スパムを避けるた"
+"め、ユーザが初めてログインしたときに行われます)"
+
+#: views/bft_main.html.php:40
+msgid "Notify me when someone unsubscribes"
+msgstr "配信停止を通知する"
+
+#: views/bft_main.html.php:37 views/bft_main.html.php:42
+msgid "Configure this message"
+msgstr "このメッセージを設定する"
+
+#: views/bft_main.html.php:35
+msgid "Notify me when someone subscribes/activates"
+msgstr "誰かが購読/有効化したときに通知する"
+
+#: views/bft_main.html.php:28
+msgid "Double opt-in:"
+msgstr "ダブルオプトイン："
+
+#: views/bft_main.html.php:24
+msgid "URL to redirect to after registration (optional):"
+msgstr "登録後にリダイレクトするURL (任意)："
+
+#: views/bft_main.html.php:21
+msgid "Leave blank for no BCC"
+msgstr "BCCなしの場合は空白にしてください"
+
+#: views/bft_main.html.php:18
+msgid "BCC all outgoing emails to this address:"
+msgstr "すべての送信メールをこのアドレスにBCCする："
+
+#: views/bft_main.html.php:15
+msgid ""
+"Fill valid email address or name/email like this:</br> <b>Name, email@domain."
+"com</b></span>"
+msgstr ""
+"有効なメールアドレスまたは名前/メールアドレスを入力してください：</br> <b>名"
+"前, email@domain.com</b></span>"
+
+#: views/bft_main.html.php:12
+msgid "Sender of all emails:"
+msgstr "すべてのメールの送信者："
+
+#: views/bft_main.html.php:8
+msgid "Main Settings"
+msgstr "主な設定項目"
+
+#: views/bft_list.html.php:150
+msgid "Please enter email"
+msgstr "Eメールアドレスを入力してください"
+
+#: views/bft_list.html.php:142 views/bft_list.html.php:166
+#: views/bft_messages.html.php:109 views/newsletter.html.php:91
+msgid "Are you sure?"
+msgstr "本当によろしいですか？"
+
+#: views/bft_list.html.php:124
+msgid "Delete Selected Subscribers"
+msgstr "選択した購読者の削除"
+
+#: views/bft_list.html.php:118
+msgid "next page"
+msgstr "次のページ"
+
+#: views/bft_list.html.php:117
+msgid "previous page"
+msgstr "前のページ"
+
+#: views/bft_list.html.php:114
+msgid "%d user(s) unsubscribed."
+msgstr "%d人のユーザが配信停止になりました"
+
+#: views/bft_list.html.php:111
+msgid "This mailing list is empty."
+msgstr "このメーリングリストは空です"
+
+#: views/bft_list.html.php:101 views/bft_messages.html.php:90
+#: views/newsletter.html.php:67 views/webhooks.html.php:16
+#: views/webhooks.html.php:26
+msgid "Delete"
+msgstr "削除"
+
+#: views/bft_list.html.php:100
+msgid "Edit subscriber"
+msgstr "購読者の編集"
+
+#: views/bft_list.html.php:98 views/bft_main.html.php:30
+msgid "No"
+msgstr "無効"
+
+#: views/bft_list.html.php:98 views/bft_main.html.php:31
+msgid "Yes"
+msgstr "有効"
+
+#: views/bft_list.html.php:86 views/webhooks.html.php:13
+msgid "Action"
+msgstr "アクション"
+
+#: views/bft_list.html.php:85
+msgid "Emails sent"
+msgstr "送信メール"
+
+#: views/bft_list.html.php:84
+msgid "Active?"
+msgstr "アクティブ？"
+
+#: views/bft_list.html.php:83
+msgid "Date Signed"
+msgstr "登録日"
+
+#: views/bft_list.html.php:82
+msgid "User Name"
+msgstr "ユーザー名"
+
+#: views/bft_list.html.php:81
+msgid "User Email Address"
+msgstr "ユーザーメールアドレス"
+
+#: views/bft_list.html.php:70
+msgid "Reset filters"
+msgstr "フィルターをリセット"
+
+#: views/bft_list.html.php:69
+msgid "Filter subscribers"
+msgstr "購読者を絞り込む"
+
+#: views/bft_list.html.php:61
+msgid "Before"
+msgstr "～日前"
+
+#: views/bft_list.html.php:60
+msgid "After"
+msgstr "～日後"
+
+#: views/bft_list.html.php:59
+msgid "On"
+msgstr "何月何日"
+
+#: views/bft_list.html.php:58
+msgid "Any time"
+msgstr "いつでも"
+
+#: views/bft_list.html.php:56
+msgid "Signed up:"
+msgstr "登録済み："
+
+#: views/bft_list.html.php:51 views/list-user.html.php:21
+msgid "Inactive"
+msgstr "非アクティブ"
+
+#: views/bft_list.html.php:49
+msgid "Any Status"
+msgstr "ステータス"
+
+#: views/bft_list.html.php:47
+msgid "Filter by status"
+msgstr "ステータスによる絞り込み"
+
+#: views/bft_list.html.php:43
+msgid "Filter by name"
+msgstr "名前による絞り込み"
+
+#: views/bft_list.html.php:39
+msgid "Filter by email"
+msgstr "Eメールによる絞り込み"
+
+#: views/bft_list.html.php:31
+msgid "Show/Hide Search Form"
+msgstr "検索フォームの表示/非表示"
+
+#: views/bft_list.html.php:24
+msgid "Add User"
+msgstr "ユーザーの追加"
+
+#: views/bft_list.html.php:22 views/bft_list.html.php:50
+#: views/list-user.html.php:20
+msgid "Active"
+msgstr "アクティブ"
+
+#: views/bft_list.html.php:8
+msgid "Manage Your Mailing List"
+msgstr "メーリングリストの管理"
+
+#: views/bft_import.html.php:46
+msgid "Export members"
+msgstr "会員をエクスポート"
+
+#: views/bft_import.html.php:45
+msgid "Export only confirmed members"
+msgstr "確定した会員のみエクスポート"
+
+#: views/bft_import.html.php:42
+msgid "Export Members to CSV File"
+msgstr "会員をCSVファイルにエクスポート"
+
+#: views/bft_import.html.php:35
+msgid "Import CSV File"
+msgstr "CSVファイルのインポート"
+
+#: views/bft_import.html.php:31
+msgid "Skip title row"
+msgstr "タイトル行のスキップ"
+
+#: views/bft_import.html.php:26
+msgid "Upload CSV:"
+msgstr "CSVをアップロードする："
+
+#: views/bft_import.html.php:21
+msgid "Name column is number:"
+msgstr "名前欄の番号："
+
+#: views/bft_import.html.php:18 views/bft_import.html.php:23
+msgid "in the CSV"
+msgstr "CSV"
+
+#: views/bft_import.html.php:16
+msgid "Email column is number:"
+msgstr "Eメール欄の番号："
+
+#: views/bft_import.html.php:13
+msgid "(Can be comma, semicolon, or tabulator. Enter <b>\\t</b> for tabulator)"
+msgstr ""
+"(コンマ、セミコロン、またはタブレータ。 タブレータには <b>t</b> を入力)"
+
+#: views/bft_import.html.php:11
+msgid "Fields Delimiter:"
+msgstr "フィールドの区切り文字："
+
+#: views/bft_import.html.php:7
+msgid "Import Members from CSV File"
+msgstr "CSVファイルから会員をインポート"
+
+#: models/attachment.php:19
+msgid "Mark to delete"
+msgstr "削除マークを付ける"
+
+#: controllers/webhooks.php:133
+msgid "Webhook error: %s"
+msgstr "ウェブフック・エラー: %s"
+
+#: controllers/newsletter.php:89
+msgid "Nothing found."
+msgstr "何も見つかりませんでした"
+
+#: controllers/newsletter.php:34
+msgid "%d emails were sent."
+msgstr "%d通のメールが送信されました"
+
+#: controllers/integrations.php:256
+msgid "WPForms is not activated."
+msgstr "WPFormsが有効になっていません"
+
+#: controllers/integrations.php:156
+msgid "Formidable Forms is not activated."
+msgstr "Formidable Formsは有効になっていません"
+
+#: controllers/integrations.php:53
+msgid "Ninja Forms is not activated."
+msgstr "Ninja Formsが有効になっていません"
+
+#: controllers/config.php:7
+msgid "Unsubscribe Notification"
+msgstr "配信停止通知"
+
+#: controllers/config.php:7
+msgid "Subscribe Notification"
+msgstr "登録通知"
+
+#: controllers/bft_hook.php:43
+msgid "Locked by lock file. The file will be released in one hour."
+msgstr "ロックファイルでロックされている。1時間後に解除されます"
+
+#: controllers/bft_hook.php:24
+msgid "Wait 1 hour before the next cron job."
+msgstr "次のcronジョブの前に1時間待つ"
+
+#: controllers/bft_hook.php:14
+msgid "Wait 5 minutes before the next cron job."
+msgstr "次のcronジョブの前に5分待つ"
+
+#: bft-lib.php:316
+msgid "Please check your email. A confirmation link is sent to it."
+msgstr "Eメールをご確認ください。確認リンクが送信されます"
+
+#: bft-lib.php:300
+msgid ""
+"Please click on the link below or copy and paste it in the browser address "
+"bar:<br><br>"
+msgstr ""
+"以下のリンクをクリックするか、ブラウザのアドレスバーにコピー＆ペーストしてく"
+"ださい：<br><br><br>"
+
+#: bft-lib.php:295
+msgid "Please confirm your email"
+msgstr "Eメールをご確認ください"
+
+#: bft-lib.php:284
+msgid "You have been subscribed!"
+msgstr "登録されました！"
+
+#: bft-lib.php:246
+msgid "The captcha verification is not correct. Please go back and try again."
+msgstr "captcha認証が正しくありません。もう一度やり直してください"
+
+#: bft-lib.php:238
+msgid ""
+"The captcha verification is not correct. Please go back and try again. (%s)"
+msgstr "captcha認証が正しくありません。もう一度やり直してください。(%s)"
+
+#: bft-lib.php:214
+msgid ""
+"The verification question was not answered correctly. Please go back and try "
+"again."
+msgstr "検証問題が正しく回答されていません。もう一度やり直してください"
+
+#: bft-lib.php:207
+msgid "Please enter valid email address"
+msgstr "有効なEメールアドレスを入力してください"
+
+#: bft-lib.php:132
+msgid "Registration date:"
+msgstr "登録日："
+
+#: bft-lib.php:131
+msgid "User email:"
+msgstr "ユーザーEメール："
+
+#: bft-lib.php:130 views/list-user.html.php:14
+msgid "User name:"
+msgstr "ユーザー名："
+
+#: bft-lib.php:126
+msgid "An user unsubscribed from the mailing list at"
+msgstr "でユーザーがメーリングリストの登録を解除した"
+
+#: bft-lib.php:104 views/bft_list.html.php:17 views/signup-form.html.php:5
+msgid "Email:"
+msgstr "Eメール："
+
+#: bft-lib.php:104 views/bft_list.html.php:19 views/signup-form.html.php:4
+msgid "Name:"
+msgstr "名前："
+
+#: bft-lib.php:104
+msgid "User details:"
+msgstr "ユーザー詳細："
+
+#: bft-lib.php:102
+msgid "New user subscribed to the mailing list at %s"
+msgstr "新しいユーザが %s でメーリングリストに登録されました"
+
+#: bft-autoresponder.php:721
+msgid "Running in cron job mode"
+msgstr "クーロンジョブモードでの実行"
+
+#: bft-autoresponder.php:699
+msgid "Your email address has been confirmed!"
+msgstr "メールアドレスが確認されました！"
+
+#: bft-autoresponder.php:657
+msgid "You have been unsubscribed."
+msgstr "配信が停止されました"
+
+#: bft-autoresponder.php:585 bft-autoresponder.php:590
+msgid "To unsubscribe from our list visit the url below:"
+msgstr "メール配信の登録解除は下のURLからお願いします："
+
+#: bft-autoresponder.php:513
+msgid "Date signed"
+msgstr "登録日"
+
+#: bft-autoresponder.php:513
+msgid "IP Address"
+msgstr "IPアドレス"
+
+#: bft-autoresponder.php:512
+msgid "Name"
+msgstr "名前"
+
+#: bft-autoresponder.php:512
+msgid "Email"
+msgstr "Eメール"
+
+#: bft-autoresponder.php:497
+msgid "%d subscribers were imported"
+msgstr "購読者が %d 件インポートされました"
+
+#: bft-autoresponder.php:470
+msgid "The uploaded file type is not accepted. You need to upload a CSV file."
+msgstr ""
+"アップロードされたファイル形式は受け付けられません。CSVファイルをアップロード"
+"してください"
+
+#: bft-autoresponder.php:453
+msgid "There must be a delimiter"
+msgstr "区切り文字が必要です"
+
+#: bft-autoresponder.php:449
+msgid "Please upload file"
+msgstr "ファイルをアップロードしてください"
+
+#: bft-autoresponder.php:435
+msgid "In which continent is France? = Europe"
+msgstr "フランスはどの大陸にあるのか？"
+
+#: bft-autoresponder.php:434
+msgid "Is fire hot or cold? = hot"
+msgstr "火は熱いか、冷たいか？"
+
+#: bft-autoresponder.php:434
+msgid "What is the color of the snow? = white"
+msgstr "雪の色は何色ですか？"
+
+#: bft-autoresponder.php:153
+msgid "Configure Email Message"
+msgstr "メールメッセージの設定"
+
+#: bft-autoresponder.php:150 views/bft_main.html.php:222
+msgid "Integrate in WPForms"
+msgstr "WPFormsに統合する"
+
+#: bft-autoresponder.php:149 views/bft_main.html.php:221
+msgid "Integrate in Formidable Form"
+msgstr "Formidable Formに統合する"
+
+#: bft-autoresponder.php:148 views/bft_main.html.php:220
+msgid "Integrate in Ninja Form"
+msgstr "Ninja Formに統合する"
+
+#: bft-autoresponder.php:147 bft-autoresponder.php:154
+#: views/bft_main.html.php:219
+msgid "Integrate in Contact Form"
+msgstr "Contact Formに統合"
+
+#: bft-autoresponder.php:146
+msgid "Help"
+msgstr "ヘルプ"
+
+#: bft-autoresponder.php:145
+msgid "Webhooks / Zapier"
+msgstr "Webhooks / Zapier"
+
+#: bft-autoresponder.php:144
+msgid "Raw Email Log"
+msgstr "ログ"
+
+#: bft-autoresponder.php:143 views/newsletter.html.php:38
+msgid "Send Newsletter"
+msgstr "ニュースレター送信"
+
+#: bft-autoresponder.php:142 views/help.html.php:31
+msgid "Email Messages"
+msgstr "ステップメール"
+
+#: bft-autoresponder.php:142
+msgid "Manage Messages"
+msgstr "メッセージの管理"
+
+#: bft-autoresponder.php:141
+msgid "Import/Export"
+msgstr "インポート/エクスポート"
+
+#: bft-autoresponder.php:141 views/help.html.php:26
+msgid "Import/Export Members"
+msgstr "会員のインポート/エクスポート"
+
+#: bft-autoresponder.php:140 views/help.html.php:20
+msgid "Mailing List"
+msgstr "リスト"
+
+#: bft-autoresponder.php:140
+msgid "Your Mailing List"
+msgstr "あなたのメーリングリスト"
+
+#: bft-autoresponder.php:139
+msgid "Settings"
+msgstr "設定"
+
+#: bft-autoresponder.php:138
+msgid "Arigato Light"
+msgstr "アリガト・ライト"
+
+#. Author URI of the plugin
+msgid "http://calendarscripts.info"
+msgstr "http://calendarscripts.info"
+
+#. Author of the plugin
+msgid "Kiboko Labs"
+msgstr "Kiboko Labs"
+
+#. Description of the plugin
+msgid ""
+"This is a sequential autoresponder that can send automated messages to your "
+"mailing list. For more advanced features check our <a href=\"http://"
+"calendarscripts.info/bft-pro\">PRO Version</a>"
+msgstr ""
+"これは、メーリングリストに自動メッセージを送信できるオートレスポンダーです。"
+"より高度な機能については、<a href=\"http://calendarscripts.info/bft-pro\" "
+"target=\"_blank\">PROバージョン</a>をご確認ください。"
+
+#. Plugin URI of the plugin
+msgid "http://calendarscripts.info/bft-pro/"
+msgstr "http://calendarscripts.info/bft-pro/"
+
+#. Plugin Name of the plugin
+msgid "Arigato Autoresponder and Newsletter"
+msgstr "Arigato Autoresponder and Newsletter"
